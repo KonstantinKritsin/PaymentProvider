@@ -1,0 +1,12 @@
+﻿<form name="issuerForm" action="@Model.Payment.IssuerUrl" method="@Model.Payment.Method">
+    <input type="hidden" name="MD" value="@Model.Payment.OrderId"/>
+    <input type="hidden" name="TermUrl" value="@Model.RedirectUrl"/>
+    <input type="hidden" name="PaReq" value="@Model.Payment.PaReq"/>
+    <div>Press Submit button</div>
+    <input type="submit" title="Submit"/>
+</form>
+<script>
+    window.onload=function() {
+        document.forms["issuerForm"].submit();
+    }
+</script>

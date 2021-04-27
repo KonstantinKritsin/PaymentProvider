@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+    <form action="/Home/Create" method="POST">
+        <div>
+            <div style="width: 100px; display: inline-block">Amount: </div><input type="text" name="Amount" value="100"/><span> EUR</span>
+        </div>
+        <div>
+            <div style="width: 100px; display: inline-block">Card number: </div><input type="text" name="CardNumber" value="4111111111111111"/>
+        </div>
+        <div>
+            <div style="width: 100px; display: inline-block">Card holder: </div><input type="text" name="CardHolder" value="TEST TESTER"/>
+        </div>
+        <div>
+            <div style="width: 100px; display: inline-block">Month: </div><input type="text" name="ExpireMonth" value="11"/>
+        </div>
+        <div>
+            <div style="width: 100px; display: inline-block">Year: </div><input type="text" name="ExpireYear" value="23"/>
+        </div>
+        <div>
+            <div style="width: 100px; display: inline-block">CVV: </div><input type="text" name="Cvv" value="111"/>
+        </div>
+        <input type="submit" title="Crete payment"/>
+    </form>
+</div>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentProvider", "PaymentProvider\PaymentProvider.csproj", "{0C401334-5CE7-4FEE-8EFD-2BFA01FC7AB5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentProvider.WebApp", "PaymentProvider.WebApp\PaymentProvider.WebApp.csproj", "{FAE657EA-8BA8-4842-BD83-8D892218707F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C401334-5CE7-4FEE-8EFD-2BFA01FC7AB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C401334-5CE7-4FEE-8EFD-2BFA01FC7AB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C401334-5CE7-4FEE-8EFD-2BFA01FC7AB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C401334-5CE7-4FEE-8EFD-2BFA01FC7AB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAE657EA-8BA8-4842-BD83-8D892218707F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAE657EA-8BA8-4842-BD83-8D892218707F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAE657EA-8BA8-4842-BD83-8D892218707F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAE657EA-8BA8-4842-BD83-8D892218707F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E63157E-8022-4D3C-AC82-11B8542E6525}
+	EndGlobalSection
+EndGlobal
